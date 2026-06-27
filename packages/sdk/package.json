@@ -1,0 +1,23 @@
+{
+  "name": "@aegis-protocol/sdk",
+  "version": "1.0.0",
+  "description": "Aegis Protocol SDK — issue, verify, revoke, and attest AI agent passports",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.js"
+  },
+  "files": ["dist"],
+  "license": "MIT",
+  "dependencies": {
+    "@aegis-protocol/spec": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "keywords": ["aegis", "ai-agents", "identity", "trust", "passport", "sdk"]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "aegis-protocol",
+  "version": "1.0.0",
+  "description": "Open source implementation of the Aegis Protocol — AI identity, trust, and attestation infrastructure",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint packages/**/src/**/*.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0"
+  },
+  "keywords": ["ai", "agents", "identity", "trust", "protocol", "security", "compliance"],
+  "author": "Veris Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veris-inc/aegis-protocol"
+  },
+  "homepage": "https://verisaegis.com"
+}

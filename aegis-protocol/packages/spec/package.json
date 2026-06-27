@@ -1,0 +1,19 @@
+{
+  "name": "@aegis-protocol/spec",
+  "version": "1.0.0",
+  "description": "Aegis Protocol v1.0 — canonical types, schemas, and constants",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": ["dist"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
