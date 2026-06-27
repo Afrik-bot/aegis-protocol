@@ -3,7 +3,7 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   moduleNameMapper: {
-    '@aegis-protocol/spec': '<rootDir>/../spec/src/index.ts',
+    '@aegis-protocol/spec': '<rootDir>/../spec/dist/index.js',
   },
   testTimeout: 10000,
 };
